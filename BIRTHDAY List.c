@@ -4,7 +4,7 @@ int main()
     int mm;
     int dd;
     printf("Know Your Friends Birthday\n");
-    printf("BIRTHDAY LIST\n");
+    printf("ECE BIRTHDAY LIST\n");
     printf("-------------\n\n");
     printf("Enter the Month:\n");
     scanf("%d", &mm);
