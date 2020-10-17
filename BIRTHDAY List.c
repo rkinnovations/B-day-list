@@ -4,7 +4,7 @@ int main()
     int mm;
     int dd;
     printf("Know Your Friends Birthday\n");
-    printf("BIRTHDAY LIST\n");
+    printf("ECE BIRTHDAY LIST\n");
     printf("-------------\n\n");
     printf("Enter the Month:\n");
     scanf("%d", &mm);
@@ -16,13 +16,13 @@ int main()
             switch (dd) 
 		    {
             case 12:
-            printf("\nIts PRAVEEN's Birthday\n");
+            printf("\nToday is PRAVEEN's Birthday\n");
             break;
             case 30:
             printf("\nIts SWETHA's Birthday\n");
             break;
             default:
-            printf("\nNO BIRTHDAY IN THIS DATE\n");
+            printf("\nTHERE IS NO BIRTHDAY IN THIS DATE\n");
             break;
             }
         break;
