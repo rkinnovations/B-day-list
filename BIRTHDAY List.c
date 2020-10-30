@@ -35,7 +35,9 @@ int main()
             printf("\nIts ANANTHAPADMANABHAN's Birthday\n");
             break;
             case 10:
-            printf("\nIts ASHITHA's Birthday\n");
+            print
+		
+		f("\nIts ASHITHA's Birthday\n");
             break;
             case 11:
             printf("\nIts NAVYA's Birthday\n");
@@ -93,6 +95,9 @@ int main()
             case 4:
             printf("\nIts SREE LAKSHMI's Birthday\n");
             break;
+			    case 10:
+			    printf("\nIts karthik's Birthday\n");
+			    break;
             case 12:
             printf("\nIts SURRAYA's Birthday\n");
             break;
@@ -106,6 +111,9 @@ int main()
         scanf("%d", &dd);
             switch (dd) 
 		    {
+			    case 6:
+			    printf("\nIts madhav's Birthday\n");
+			    break;
             case 28:
             printf("\nIts ANU ANAND's Birthday\n");
             break;
@@ -116,7 +124,7 @@ int main()
             printf("\nIts SNEHA's Birthday\n");
             break;
             case 23:
-            printf("\nIts SOURAV's Birthday\n");
+            printf("\nIts SOURAVs Birthday\n");
             break;
             default:
             printf("\nNO BIRTHDAY IN THIS DATE");
