@@ -12,8 +12,8 @@ int main()
 	{
         case 1:
         printf("Enter the Date:\n");
-        scanf("%d", &dd);
-            switch (dd) 
+        scanf("%d",&dd);
+            swit(dd) 
 		    {
             case 12:
             printf("\nIts PRAVEEN's Birthday\n");
@@ -28,8 +28,8 @@ int main()
         break;
         case 2:
         printf("Enter the Date:\n");
-        scanf("%d", &dd);
-            switch (dd) 
+        scanf("%d",&dd);
+            switch(dd) 
 		    {
             case 13:
             printf("\nIts ANANTHAPADMANABHAN's Birthday\n");
@@ -87,6 +87,9 @@ int main()
             case 11:
             printf("\nIts AARATHY's Birthday\n");
             break;
+			    case 17:
+			    printf("\nIts manu's Birthday\n");
+			    break;
             case 29:
             printf("\nIts ABHISHEK's Birthday\n");
             break;
@@ -270,7 +273,7 @@ int main()
         scanf("%d", &dd);
             switch (dd) 
 		    {
-		    case 18:
+		case 18:
             printf("\nIts ATHIRA R K's Birthday\n");
             break;	
             case 22:
